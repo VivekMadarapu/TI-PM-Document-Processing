@@ -1,0 +1,10 @@
+torch
+transformers
+scikit-learn
+matplotlib
+seaborn
+lime
+bertviz
+pdfplumber
+Pillow
+Flask
