@@ -10,7 +10,6 @@ from sklearn.metrics import (
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Define your test dataset
 test_texts = [
     "Do not perform work until the tool has been de-energized",
     "Fill the platen chiller",
@@ -24,7 +23,6 @@ test_texts = [
     "Using 5/32 Allen wrench remove ¼-20Titanium screws that hold active Tophatto brim of clam cell. If screws have dried plating solution on the soak or rinse in DI water to clean. Place screws aside to air dry.Have Maintenance cover ready to transport brim to cleanup hood.",
 ]
 
-# Corresponding labels
 test_labels = [
     0,  # Ambiguous
     0,
@@ -45,7 +43,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
 model.eval()
 
-# If you have a GPU available, move the model to GPU
+# Move the model to GPU if available
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
@@ -70,12 +68,8 @@ class TextClassificationTestDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
-# Create the test dataset
 test_dataset = TextClassificationTestDataset(test_texts, test_labels, tokenizer)
-
-# Create the DataLoader
 test_loader = DataLoader(test_dataset, batch_size=8, shuffle=False)
-
 all_labels = []
 all_preds = []
 
@@ -97,29 +91,21 @@ with torch.no_grad():
         all_labels.extend(labels.cpu().numpy())
         all_preds.extend(preds.cpu().numpy())
 
-# Calculate accuracy
 accuracy = accuracy_score(all_labels, all_preds)
-
-# Calculate precision, recall, and F1-score
 precision, recall, f1, _ = precision_recall_fscore_support(
     all_labels, all_preds, average='binary'
 )
-
-# Print evaluation results
 print(f"Accuracy: {accuracy:.4f}")
 print(f"Precision: {precision:.4f}")
 print(f"Recall: {recall:.4f}")
 print(f"F1-Score: {f1:.4f}")
 
-# Get the classification report
 report = classification_report(
     all_labels, all_preds, target_names=['Ambiguous', 'Specific']
 )
-
 print("\nClassification Report:")
 print(report)
 
-# Generate the confusion matrix
 cm = confusion_matrix(all_labels, all_preds)
 
 # Plot the confusion matrix using seaborn
