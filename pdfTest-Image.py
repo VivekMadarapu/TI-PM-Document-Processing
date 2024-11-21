@@ -1,52 +1,3 @@
-""""
-import pdfplumber
-import os
-
-def extract_pdf_data(pdf_path, output_dir):
-    # Open the PDF file
-    with pdfplumber.open(pdf_path) as pdf:
-        text_data = []  # List to store text data
-        
-        for page_num, page in enumerate(pdf.pages):
-            print(f"Processing page {page_num + 1}...")
-            
-            # Extract text from the page
-            text = page.extract_text()
-            text_data.append({
-                'page_num': page_num + 1,
-                'text': text or "No text found"
-            })
-        
-        return text_data
-
-# Define main function to run the extraction process
-def main():
-    pdf_path = "sample.pdf"  # Provide the path to your PDF file
-    output_dir = "output"    # Directory where the text will be saved
-    
-    # Create the output directory if it doesn't exist
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    
-    # Extract data
-    text_data = extract_pdf_data(pdf_path, output_dir)
-    
-    # Save the extracted text to a file (optional)
-    text_filename = os.path.join(output_dir, "extracted_text.txt")
-    with open(text_filename, 'w') as f:
-        for page in text_data:
-            f.write(f"Page {page['page_num']}:\n")
-            f.write(page['text'])
-            f.write("\n\n")
-    
-    print(f"Text data extracted and saved as {text_filename}")
-
-if __name__ == "__main__":
-    main()
-
-"""
-
-
 import pdfplumber
 import os
 from PIL import Image
@@ -91,7 +42,7 @@ def extract_pdf_data(pdf_path, output_dir):
 
 # Define main function to run the extraction process
 def main():
-    pdf_path = "sample.pdf"  # Provide the path to your PDF file
+    pdf_path = "documents/sample.pdf"  # Provide the path to your PDF file
     output_dir = "output"    # Directory where the text and images will be saved
     
     # Create the output directory if it doesn't exist
