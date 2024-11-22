@@ -1,8 +1,7 @@
 import os
-
 from flask import Flask, request, jsonify
-
 from AMBPredict import predict_sentences
+from ProcessPDF import process_document
 
 app = Flask(__name__)
 
@@ -19,22 +18,27 @@ def predict_ambiguous(text):
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    # Check if the request has the 'file' part
     if 'file' not in request.files:
         return jsonify({"error": "No file part in the request"}), 400
 
     file = request.files['file']
 
-    # Check if a file is selected
     if file.filename == '':
         return jsonify({"error": "No selected file"}), 400
 
-    # Save the uploaded file to the specified directory
     file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
     file.save(file_path)
 
-    # Return a success response
-    return jsonify({"message": "File uploaded successfully", "filename": file.filename}), 200
+    text_data, image_data = process_document(file_path)
+
+    document_data = ""
+    for page in text_data:
+        document_data += page['text'] + "\n\n"
+
+    response = jsonify({"message": "File uploaded successfully", "filename": file.filename, "data": document_data})
+    print(response)
+
+    return response, 200
 
 
 if __name__ == '__main__':
