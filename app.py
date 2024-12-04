@@ -10,9 +10,12 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
-@app.route('/predict-ambiguous')
-def predict_ambiguous(text):
-    prediction = predict_sentences([text])
+@app.route('/predict-ambiguous', methods=['POST'])
+def predict_ambiguous():
+    data = request.get_json()
+    if 'text' not in data:
+        return jsonify({"error": "No 'text' field found in the request"}), 400
+    prediction = predict_sentences([data['text']])
     sentence, label = prediction[0]
     return str(label)
 

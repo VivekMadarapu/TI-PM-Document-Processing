@@ -210,8 +210,13 @@ class TextClassificationDataset(Dataset):
     def __len__(self):
         return len(self.labels)
 
+device = torch.device('cpu')
+if torch.cuda.is_available():
+    device = torch.device('cuda')
+
 tokenizer = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
 model = AutoModelForSequenceClassification.from_pretrained('allenai/scibert_scivocab_uncased', num_labels=2)
+model.to(device)
 
 train_dataset = TextClassificationDataset(train_texts, train_labels, tokenizer)
 val_dataset = TextClassificationDataset(val_texts, val_labels, tokenizer)
