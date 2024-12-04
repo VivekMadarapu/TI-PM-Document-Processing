@@ -1,0 +1,3710 @@
+{
+  "processed_lines": [
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "8",
+        "0"
+      ],
+      "line_number": 4,
+      "original_text": "SPECIFICATION NAME: I R - P P 8 0 S P"
+    },
+    {
+      "ambiguous_words": [
+        "CREATED",
+        "Douglas",
+        "Hicks"
+      ],
+      "line_number": 5,
+      "original_text": "CREATED BY: Douglas Hicks"
+    },
+    {
+      "ambiguous_words": [
+        "CREATED:",
+        "04/28/2020"
+      ],
+      "line_number": 6,
+      "original_text": "DATE CREATED: 04/28/2020"
+    },
+    {
+      "ambiguous_words": [
+        "REVISED",
+        "Merryweather"
+      ],
+      "line_number": 7,
+      "original_text": "REVISED BY: Luke Merryweather"
+    },
+    {
+      "ambiguous_words": [
+        "REVISED",
+        "02/28/2024"
+      ],
+      "line_number": 8,
+      "original_text": "REVISED DATE: 02/28/2024"
+    },
+    {
+      "ambiguous_words": [
+        "24059016"
+      ],
+      "line_number": 9,
+      "original_text": "ECN: 24059016"
+    },
+    {
+      "ambiguous_words": [
+        "005"
+      ],
+      "line_number": 10,
+      "original_text": "Revision: 005"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 11,
+      "original_text": "MODULE : Implant"
+    },
+    {
+      "ambiguous_words": [
+        "AMAT/Varian",
+        "VIISta",
+        "80HP",
+        "Months"
+      ],
+      "line_number": 12,
+      "original_text": "DESCRIPTION : AMAT/Varian VIISta 80HP Even Months Short PM Procedure"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 13,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***"
+      ],
+      "line_number": 14,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 1"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "1.0"
+      ],
+      "line_number": 4,
+      "original_text": "1.0 Purpose"
+    },
+    {
+      "ambiguous_words": [
+        "instructions/procedures",
+        "scheduled,"
+      ],
+      "line_number": 5,
+      "original_text": "\u2022 Provide specific instructions/procedures for the execution of scheduled,"
+    },
+    {
+      "ambiguous_words": [
+        "2",
+        "required"
+      ],
+      "line_number": 6,
+      "original_text": "preventive maintenance of the equipment listed in section 2 on an as required"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 7,
+      "original_text": "basis"
+    },
+    {
+      "ambiguous_words": [
+        "2.0"
+      ],
+      "line_number": 8,
+      "original_text": "2.0 Scope"
+    },
+    {
+      "ambiguous_words": [
+        "AMAT/Varian",
+        "VIISta",
+        "80HP",
+        "implanters"
+      ],
+      "line_number": 9,
+      "original_text": "\u2022 Applicable to all AMAT/Varian VIISta 80HP ion implanters listed in"
+    },
+    {
+      "ambiguous_words": [
+        "IM-EQ-HC-8"
+      ],
+      "line_number": 10,
+      "original_text": "$ IM-EQ-HC-8 $"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 11,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "2"
+      ],
+      "line_number": 12,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 2"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "3.0"
+      ],
+      "line_number": 4,
+      "original_text": "3.0 Index"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 5,
+      "original_text": "1. Purpose"
+    },
+    {
+      "ambiguous_words": [
+        "2.",
+        "Procedures"
+      ],
+      "line_number": 6,
+      "original_text": "2. Scope Procedures need to be"
+    },
+    {
+      "ambiguous_words": [
+        "3."
+      ],
+      "line_number": 7,
+      "original_text": "3. Index"
+    },
+    {
+      "ambiguous_words": [
+        "sub-tasks"
+      ],
+      "line_number": 8,
+      "original_text": "broken down into sub-tasks"
+    },
+    {
+      "ambiguous_words": [
+        "4.",
+        "References"
+      ],
+      "line_number": 9,
+      "original_text": "4. References"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 10,
+      "original_text": "to enable BKM navigation"
+    },
+    {
+      "ambiguous_words": [
+        "5.",
+        "Definitions"
+      ],
+      "line_number": 11,
+      "original_text": "5. Definitions"
+    },
+    {
+      "ambiguous_words": [
+        "hyperlink."
+      ],
+      "line_number": 12,
+      "original_text": "via hyperlink. Once"
+    },
+    {
+      "ambiguous_words": [
+        "6.",
+        "Procedures"
+      ],
+      "line_number": 13,
+      "original_text": "6. Procedures"
+    },
+    {
+      "ambiguous_words": [
+        "identified,",
+        "tasks"
+      ],
+      "line_number": 14,
+      "original_text": "identified, sub tasks are to"
+    },
+    {
+      "ambiguous_words": [
+        "6.1",
+        "Safety/Preparations"
+      ],
+      "line_number": 15,
+      "original_text": "6.1 Safety/Preparations"
+    },
+    {
+      "ambiguous_words": [
+        "renamed"
+      ],
+      "line_number": 16,
+      "original_text": "be renamed in the Index"
+    },
+    {
+      "ambiguous_words": [
+        "6.2"
+      ],
+      "line_number": 17,
+      "original_text": "6.2 Monthly PM Procedure"
+    },
+    {
+      "ambiguous_words": [
+        "sections"
+      ],
+      "line_number": 18,
+      "original_text": "and the slide sections"
+    },
+    {
+      "ambiguous_words": [
+        "6.3",
+        "Procedures"
+      ],
+      "line_number": 19,
+      "original_text": "6.3 Procedures for finishing PM"
+    },
+    {
+      "ambiguous_words": [
+        "7."
+      ],
+      "line_number": 20,
+      "original_text": "7. 5S"
+    },
+    {
+      "ambiguous_words": [
+        "8."
+      ],
+      "line_number": 21,
+      "original_text": "8. Spec Revision History"
+    },
+    {
+      "ambiguous_words": [
+        "9."
+      ],
+      "line_number": 22,
+      "original_text": "9. Data Retention"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 23,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "3"
+      ],
+      "line_number": 24,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 3"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "4.0",
+        "References"
+      ],
+      "line_number": 4,
+      "original_text": "4.0 References"
+    },
+    {
+      "ambiguous_words": [
+        "4.1"
+      ],
+      "line_number": 5,
+      "original_text": "4.1"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PC-HC-8",
+        "Checklists"
+      ],
+      "line_number": 6,
+      "original_text": "$ IR-PC-HC-8 $ Pm Checklists"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PS-HC-8",
+        "Schedules"
+      ],
+      "line_number": 7,
+      "original_text": "$ IR-PS-HC-8 $ Pm Schedules"
+    },
+    {
+      "ambiguous_words": [
+        "IR-SS-HC-8",
+        "Start-Up/Shut-Down"
+      ],
+      "line_number": 8,
+      "original_text": "$ IR-SS-HC-8 $ Machine Start-Up/Shut-Down"
+    },
+    {
+      "ambiguous_words": [
+        "IR-SF-HC-8"
+      ],
+      "line_number": 9,
+      "original_text": "$ IR-SF-HC-8 $ Equipment Safety"
+    },
+    {
+      "ambiguous_words": [
+        "IR-CO-HC-8"
+      ],
+      "line_number": 10,
+      "original_text": "$ IR-CO-HC-8 $ Configuration Specification"
+    },
+    {
+      "ambiguous_words": [
+        "4.2"
+      ],
+      "line_number": 11,
+      "original_text": "4.2"
+    },
+    {
+      "ambiguous_words": [
+        "Viista",
+        "80"
+      ],
+      "line_number": 12,
+      "original_text": "1. Viista 80 reference manual volume 1."
+    },
+    {
+      "ambiguous_words": [
+        "https://sps16.itg.ti.com/sites/cmpimpee/Vista%2080HP/Manuals/80HP/80HP%20Rev%20D"
+      ],
+      "line_number": 13,
+      "original_text": "https://sps16.itg.ti.com/sites/cmpimpee/Vista%2080HP/Manuals/80HP/80HP%20Rev%20D"
+    },
+    {
+      "ambiguous_words": [
+        "_Vol1.pdf"
+      ],
+      "line_number": 14,
+      "original_text": "_Vol1.pdf"
+    },
+    {
+      "ambiguous_words": [
+        "2.",
+        "Viista",
+        "80",
+        "2."
+      ],
+      "line_number": 15,
+      "original_text": "2. Viista 80 reference manual volume 2."
+    },
+    {
+      "ambiguous_words": [
+        "https://sps16.itg.ti.com/sites/cmpimpee/Vista%2080HP/Manuals/80HP/80HP%20Rev%20D"
+      ],
+      "line_number": 16,
+      "original_text": "https://sps16.itg.ti.com/sites/cmpimpee/Vista%2080HP/Manuals/80HP/80HP%20Rev%20D"
+    },
+    {
+      "ambiguous_words": [
+        "_Vol2.pdf"
+      ],
+      "line_number": 17,
+      "original_text": "_Vol2.pdf"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 18,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "4"
+      ],
+      "line_number": 19,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 4"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "5.0",
+        "Definitions"
+      ],
+      "line_number": 4,
+      "original_text": "5.0 Definitions"
+    },
+    {
+      "ambiguous_words": [
+        "AMU"
+      ],
+      "line_number": 5,
+      "original_text": "AMU ATOMIC MASS UNIT"
+    },
+    {
+      "ambiguous_words": [
+        "AsH3"
+      ],
+      "line_number": 6,
+      "original_text": "AsH3 Arsine"
+    },
+    {
+      "ambiguous_words": [
+        "BF3",
+        "TRIFLOURIDE"
+      ],
+      "line_number": 7,
+      "original_text": "BF3 BORON TRIFLOURIDE"
+    },
+    {
+      "ambiguous_words": [
+        "CDA"
+      ],
+      "line_number": 8,
+      "original_text": "CDA COMPRESSED DRY AIR"
+    },
+    {
+      "ambiguous_words": [
+        "DEIONIZED"
+      ],
+      "line_number": 9,
+      "original_text": "DI DEIONIZED"
+    },
+    {
+      "ambiguous_words": [
+        "EMO"
+      ],
+      "line_number": 10,
+      "original_text": "EMO Emergency Machine Off"
+    },
+    {
+      "ambiguous_words": [
+        "HCIG"
+      ],
+      "line_number": 11,
+      "original_text": "HCIG HOT CATHODE IONIZATION GAUGE"
+    },
+    {
+      "ambiguous_words": [
+        "IAN",
+        "NETWORKING"
+      ],
+      "line_number": 12,
+      "original_text": "IAN INFORMATION APPLICATION NETWORKING"
+    },
+    {
+      "ambiguous_words": [
+        "IPA"
+      ],
+      "line_number": 13,
+      "original_text": "IPA Isopropyl Alcohol"
+    },
+    {
+      "ambiguous_words": [
+        "SHEETS"
+      ],
+      "line_number": 14,
+      "original_text": "MSDS MATERIAL SAFETY DATA SHEETS"
+    },
+    {
+      "ambiguous_words": [
+        "NCS"
+      ],
+      "line_number": 15,
+      "original_text": "NCS NEW COMPUTER SYSTEM"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 16,
+      "original_text": "P.D. POWER DISTRIBUTION"
+    },
+    {
+      "ambiguous_words": [
+        "BOARDS"
+      ],
+      "line_number": 17,
+      "original_text": "PCB PRINTED CIRCUIT BOARDS"
+    },
+    {
+      "ambiguous_words": [
+        "PFG"
+      ],
+      "line_number": 18,
+      "original_text": "PFG Plasma Flood Gun"
+    },
+    {
+      "ambiguous_words": [
+        "PH3"
+      ],
+      "line_number": 19,
+      "original_text": "PH3 Phosphine"
+    },
+    {
+      "ambiguous_words": [
+        "POUNDS"
+      ],
+      "line_number": 20,
+      "original_text": "PSI POUNDS PER SQUARE INCH"
+    },
+    {
+      "ambiguous_words": [
+        "DISKS"
+      ],
+      "line_number": 21,
+      "original_text": "RAID REDUNDANT ARRAY INEXPENSIVE DISKS"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 22,
+      "original_text": "SCSI SMALL COMPUTER SYSTEM INTERFACE"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 23,
+      "original_text": "TC THERMOCOUPLE"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 24,
+      "original_text": "VAP SHORT FOR VAPORIZER"
+    },
+    {
+      "ambiguous_words": [
+        "VARIAN"
+      ],
+      "line_number": 25,
+      "original_text": "VCS VARIAN CONTROL SYSTEM"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 26,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "5"
+      ],
+      "line_number": 27,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 5"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "Supplies"
+      ],
+      "line_number": 4,
+      "original_text": "Supplies"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 5,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "6"
+      ],
+      "line_number": 6,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 6"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "6.0",
+        "Procedures"
+      ],
+      "line_number": 4,
+      "original_text": "6.0 Procedures"
+    },
+    {
+      "ambiguous_words": [
+        "6.1",
+        "Safety/Preparations"
+      ],
+      "line_number": 5,
+      "original_text": "6.1 Safety/Preparations"
+    },
+    {
+      "ambiguous_words": [
+        "6.2"
+      ],
+      "line_number": 6,
+      "original_text": "6.2 Monthly PM Procedure"
+    },
+    {
+      "ambiguous_words": [
+        "6.3",
+        "Procedures"
+      ],
+      "line_number": 7,
+      "original_text": "6.3 Procedures for finishing PM"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 8,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "7"
+      ],
+      "line_number": 9,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 7"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "6.1",
+        "Safety/Preparation"
+      ],
+      "line_number": 4,
+      "original_text": "6.1 Safety/Preparation"
+    },
+    {
+      "ambiguous_words": [
+        "6.1",
+        "enabling",
+        "doors"
+      ],
+      "line_number": 5,
+      "original_text": "6.1 Before enabling control power, ensure there are no personnel working on machine and all doors are closed."
+    },
+    {
+      "ambiguous_words": [
+        "6.2",
+        "signs",
+        "supplies,",
+        "areas."
+      ],
+      "line_number": 6,
+      "original_text": "6.2 Observe all warning signs on power supplies, and use grounding bar before entering and touching the terminal or source areas."
+    },
+    {
+      "ambiguous_words": [
+        "6.3",
+        "locations",
+        "SCOTT",
+        "packs,"
+      ],
+      "line_number": 7,
+      "original_text": "6.3 Note the location of the emergency shut off buttons, control power disable, the nearest telephone, emergency phone number, locations of SCOTT air packs, the nearest fire extinguisher, and"
+    },
+    {
+      "ambiguous_words": [
+        "exits"
+      ],
+      "line_number": 8,
+      "original_text": "exits from the area."
+    },
+    {
+      "ambiguous_words": [
+        "6.4",
+        "questions",
+        "chemicals"
+      ],
+      "line_number": 9,
+      "original_text": "6.4 For any questions concerning chemicals used in process, consult MSDS on the web page below."
+    },
+    {
+      "ambiguous_words": [
+        "http://msds.ti.com/"
+      ],
+      "line_number": 10,
+      "original_text": "http://msds.ti.com/"
+    },
+    {
+      "ambiguous_words": [
+        "6.5",
+        "DM5"
+      ],
+      "line_number": 11,
+      "original_text": "6.5 DM5 SAFETY"
+    },
+    {
+      "ambiguous_words": [
+        "https://sps09.itg.ti.com/sites/wwfusfab/dmos5/esh/Pages/default.aspx"
+      ],
+      "line_number": 12,
+      "original_text": "https://sps09.itg.ti.com/sites/wwfusfab/dmos5/esh/Pages/default.aspx"
+    },
+    {
+      "ambiguous_words": [
+        "6.6",
+        "Standards"
+      ],
+      "line_number": 13,
+      "original_text": "6.6 TI Safety Standards"
+    },
+    {
+      "ambiguous_words": [
+        "https://sps01.itg.ti.com/sites/wwf/esh/standards/default.aspx"
+      ],
+      "line_number": 14,
+      "original_text": "https://sps01.itg.ti.com/sites/wwf/esh/standards/default.aspx"
+    },
+    {
+      "ambiguous_words": [
+        "6.8",
+        "29",
+        "-1910.147"
+      ],
+      "line_number": 15,
+      "original_text": "6.8 OSHA CFR 29 -1910.147 Control of Hazardous Energy"
+    },
+    {
+      "ambiguous_words": [
+        "https://www.osha.gov/SLTC/controlhazardousenergy/"
+      ],
+      "line_number": 16,
+      "original_text": "https://www.osha.gov/SLTC/controlhazardousenergy/"
+    },
+    {
+      "ambiguous_words": [
+        "6.9",
+        "DM5"
+      ],
+      "line_number": 17,
+      "original_text": "6.9 TI DM5 Hot Work Permit"
+    },
+    {
+      "ambiguous_words": [
+        "http://dmos6.sc.ti.com/hotwork/index.html"
+      ],
+      "line_number": 18,
+      "original_text": "http://dmos6.sc.ti.com/hotwork/index.html"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 19,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "8"
+      ],
+      "line_number": 20,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 8"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "6.1",
+        "Safety/Preparation"
+      ],
+      "line_number": 4,
+      "original_text": "6.1 Safety/Preparation"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 5,
+      "original_text": "\u2022 Ensure the tool is properly locked out and tagged out."
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 6,
+      "original_text": "\u2022 Ensure nobody is inside the load lock area of the tool before moving the robot arm."
+    },
+    {
+      "ambiguous_words": [
+        "members"
+      ],
+      "line_number": 7,
+      "original_text": "\u2022 Be sure to alert your team members to what you are doing."
+    },
+    {
+      "ambiguous_words": [
+        "performed",
+        "AMAT-Varian"
+      ],
+      "line_number": 8,
+      "original_text": "\u2022 All preventive maintenance is to be performed by Implant equipment engineering, AMAT-Varian customer service personnel."
+    },
+    {
+      "ambiguous_words": [
+        "supplies,",
+        "doors"
+      ],
+      "line_number": 9,
+      "original_text": "\u2022 Before turning on any power supplies, make sure there are no personnel working on machine and all doors are closed."
+    },
+    {
+      "ambiguous_words": [
+        "signs",
+        "supplies,",
+        "areas."
+      ],
+      "line_number": 10,
+      "original_text": "\u2022 Observe all warning signs on power supplies, and use grounding bar before entering and touching the terminal or source areas."
+    },
+    {
+      "ambiguous_words": [
+        "(EMO)"
+      ],
+      "line_number": 11,
+      "original_text": "\u2022 Note the location of the emergency shut off (EMO) buttons, high voltage disable, the nearest telephone, TI emergency phone number"
+    },
+    {
+      "ambiguous_words": [
+        "(214-429-2222),",
+        "locations",
+        "Scott",
+        "packs,",
+        "exits"
+      ],
+      "line_number": 12,
+      "original_text": "(214-429-2222), locations of Scott air packs, the nearest fire extinguisher, and exits from the area."
+    },
+    {
+      "ambiguous_words": [
+        "questions",
+        "chemicals",
+        "http://msds.ti.com/servlet/ssmain;"
+      ],
+      "line_number": 13,
+      "original_text": "\u2022 For any questions concerning chemicals used in process, consult MSDS; use web MSDS: http://msds.ti.com/servlet/ssmain; enter the"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 14,
+      "original_text": "name of the chemical you wish to review."
+    },
+    {
+      "ambiguous_words": [
+        "chemicals",
+        "materials",
+        "Viista"
+      ],
+      "line_number": 15,
+      "original_text": "\u2022 Periodically update yourself on chemicals used in your area. hazardous materials used in any Viista ion implanter include phosphine,"
+    },
+    {
+      "ambiguous_words": [
+        "boron-trifluoride,"
+      ],
+      "line_number": 16,
+      "original_text": "arsine, argon, boron-trifluoride, xenon, and nitrogen."
+    },
+    {
+      "ambiguous_words": [
+        "performing",
+        "Viista",
+        "80HP"
+      ],
+      "line_number": 17,
+      "original_text": "\u2022 Before performing maintenance on the Viista 80HP implanter, you must read the safety specification:"
+    },
+    {
+      "ambiguous_words": [
+        "AMAT-Varian",
+        "Viista",
+        "80HP",
+        "LOTO",
+        "Procedures",
+        "IR-SF-HC-8"
+      ],
+      "line_number": 18,
+      "original_text": "AMAT-Varian Viista 80HP LOTO & Safety Procedures $ IR-SF-HC-8 $ Equipment Safety"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 19,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "9"
+      ],
+      "line_number": 20,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 9"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "6.1",
+        "Safety/Preparation"
+      ],
+      "line_number": 4,
+      "original_text": "6.1 Safety/Preparation"
+    },
+    {
+      "ambiguous_words": [
+        "assemblies",
+        "procedures",
+        "parts",
+        "needed);"
+      ],
+      "line_number": 5,
+      "original_text": "\u2022 Inventory assemblies (see specific PM procedures to determine the parts needed);"
+    },
+    {
+      "ambiguous_words": [
+        "parts",
+        "inspected"
+      ],
+      "line_number": 6,
+      "original_text": "make sure all parts have been inspected and staged at the Implanter before the PM"
+    },
+    {
+      "ambiguous_words": [
+        "begins.",
+        "supplies",
+        "materials",
+        "required"
+      ],
+      "line_number": 7,
+      "original_text": "begins. Collect all supplies and materials required for the procedure."
+    },
+    {
+      "ambiguous_words": [
+        "scheduled"
+      ],
+      "line_number": 8,
+      "original_text": "\u2022 Notify the MFG supervisor the machine is going down for scheduled maintenance."
+    },
+    {
+      "ambiguous_words": [
+        "XID\u2019d;",
+        "needed",
+        "XID."
+      ],
+      "line_number": 9,
+      "original_text": "\u2022 Check SMS for XID\u2019d; notify the tool owner if help is needed with an XID."
+    },
+    {
+      "ambiguous_words": [
+        "(SMM)"
+      ],
+      "line_number": 10,
+      "original_text": "\u2022 Make sure the tool is in the proper PM state (SMM) in SMS."
+    },
+    {
+      "ambiguous_words": [
+        "checksheet",
+        "performed."
+      ],
+      "line_number": 11,
+      "original_text": "\u2022 Pull up the electronic PM checksheet and fill it out as the procedure is performed."
+    },
+    {
+      "ambiguous_words": [
+        "LOTO",
+        "IR-LO-HC-8",
+        "implemented."
+      ],
+      "line_number": 12,
+      "original_text": "\u2022 Make sure LOTO Procedure IR-LO-HC-8 is implemented."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "de-energized."
+      ],
+      "line_number": 13,
+      "original_text": "\u2022 Do not perform work until the tool has been de-energized."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 14,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "10"
+      ],
+      "line_number": 15,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 10"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "6.2"
+      ],
+      "line_number": 4,
+      "original_text": "6.2 Monthly PM Procedure"
+    },
+    {
+      "ambiguous_words": [
+        "6.2.1",
+        "XID",
+        "addressed",
+        "items.",
+        "XID"
+      ],
+      "line_number": 5,
+      "original_text": "6.2.1 Check XID of tool for any thing that needs addressed during the PM and complete those items. The XID is"
+    },
+    {
+      "ambiguous_words": [
+        "preceded",
+        "XID",
+        "IM401",
+        "XIM401.",
+        "XID",
+        "completed"
+      ],
+      "line_number": 6,
+      "original_text": "the tool Misti ID preceded by an \u201cX\u201d for example the XID for IM401 is XIM401. If the XID cannot be completed"
+    },
+    {
+      "ambiguous_words": [
+        "needed."
+      ],
+      "line_number": 7,
+      "original_text": "document what is needed."
+    },
+    {
+      "ambiguous_words": [
+        "SMW20DE2",
+        "comments"
+      ],
+      "line_number": 8,
+      "original_text": "\u2022 Use SMW20DE2 to view comments"
+    },
+    {
+      "ambiguous_words": [
+        "performing",
+        "(xim203)"
+      ],
+      "line_number": 9,
+      "original_text": "\u2022 X in front of tool performing PM on (xim203)"
+    },
+    {
+      "ambiguous_words": [
+        "Dates",
+        "Comments"
+      ],
+      "line_number": 10,
+      "original_text": "\u2022 Check Dates and Comments for anything"
+    },
+    {
+      "ambiguous_words": [
+        "needed."
+      ],
+      "line_number": 11,
+      "original_text": "needed."
+    },
+    {
+      "ambiguous_words": [
+        "IM203"
+      ],
+      "line_number": 12,
+      "original_text": "Tool ID: IM203"
+    },
+    {
+      "ambiguous_words": [
+        "XID:",
+        "XIM203"
+      ],
+      "line_number": 13,
+      "original_text": "XID: XIM203"
+    },
+    {
+      "ambiguous_words": [
+        "Cryo"
+      ],
+      "line_number": 14,
+      "original_text": "P2 Cryo due on next PM"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 15,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "11"
+      ],
+      "line_number": 16,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 11"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "30",
+        "minutes"
+      ],
+      "line_number": 4,
+      "original_text": "Shut down beam and wait 30 minutes for vacuum to"
+    },
+    {
+      "ambiguous_words": [
+        "Pre-PM",
+        "IG1______",
+        "IG2______"
+      ],
+      "line_number": 5,
+      "original_text": "base record Pre-PM Vacuum. IG1______ IG2______"
+    },
+    {
+      "ambiguous_words": [
+        "IG3______"
+      ],
+      "line_number": 6,
+      "original_text": "IG3______"
+    },
+    {
+      "ambiguous_words": [
+        "IG1,",
+        "IG2",
+        "IG3",
+        "filaments"
+      ],
+      "line_number": 7,
+      "original_text": "Check IG1, IG2 and IG3 for bad filaments and"
+    },
+    {
+      "ambiguous_words": [
+        "vented"
+      ],
+      "line_number": 8,
+      "original_text": "replace after the tool is vented if any are bad."
+    },
+    {
+      "ambiguous_words": [
+        "gauges",
+        "2",
+        "filaments"
+      ],
+      "line_number": 9,
+      "original_text": "The gauges have 2 filaments each."
+    },
+    {
+      "ambiguous_words": [
+        "4617823-0001"
+      ],
+      "line_number": 10,
+      "original_text": "4617823-0001 \u2013Original now obsolete"
+    },
+    {
+      "ambiguous_words": [
+        "4743691-0001"
+      ],
+      "line_number": 11,
+      "original_text": "4743691-0001 \u2013New version"
+    },
+    {
+      "ambiguous_words": [
+        "Operationbutton,",
+        "Vacuumdetail"
+      ],
+      "line_number": 12,
+      "original_text": "From the Operationbutton, Vacuumdetail the"
+    },
+    {
+      "ambiguous_words": [
+        "viewed"
+      ],
+      "line_number": 13,
+      "original_text": "IG\u2019s can be viewed and display the filament # as"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 14,
+      "original_text": "shown."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 15,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "12"
+      ],
+      "line_number": 16,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 12"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "Pressures"
+      ],
+      "line_number": 4,
+      "original_text": "Record Bottle Pressures"
+    },
+    {
+      "ambiguous_words": [
+        "BF3______",
+        "ASH3______",
+        "PH3______"
+      ],
+      "line_number": 5,
+      "original_text": "BF3______ ASH3______ PH3______"
+    },
+    {
+      "ambiguous_words": [
+        "Gasbox"
+      ],
+      "line_number": 6,
+      "original_text": "From the Operation button, Gasbox"
+    },
+    {
+      "ambiguous_words": [
+        "viewed"
+      ],
+      "line_number": 7,
+      "original_text": "Vacuum detail the IG\u2019s can be viewed"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 8,
+      "original_text": "and display the gas bottle pressure as"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 9,
+      "original_text": "shown."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 10,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "13"
+      ],
+      "line_number": 11,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 13"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "6.3",
+        "Items",
+        "performed"
+      ],
+      "line_number": 4,
+      "original_text": "6.3 PM Items are to be performed after the Monthly PM"
+    },
+    {
+      "ambiguous_words": [
+        "lights"
+      ],
+      "line_number": 5,
+      "original_text": "Check the signal light tower lights"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 6,
+      "original_text": "are working."
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 7,
+      "original_text": "Click on the signal tower display at"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 8,
+      "original_text": "the top of the control screen and a"
+    },
+    {
+      "ambiguous_words": [
+        "pop-up"
+      ],
+      "line_number": 9,
+      "original_text": "pop-up will display where the light"
+    },
+    {
+      "ambiguous_words": [
+        "commanded"
+      ],
+      "line_number": 10,
+      "original_text": "can be commanded on to test the"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 11,
+      "original_text": "light is working."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 12,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "14"
+      ],
+      "line_number": 13,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 14"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "Lights"
+      ],
+      "line_number": 4,
+      "original_text": "Enclosure Lights"
+    },
+    {
+      "ambiguous_words": [
+        "lights"
+      ],
+      "line_number": 5,
+      "original_text": "Check all lights inside the tool,"
+    },
+    {
+      "ambiguous_words": [
+        "enable/disable."
+      ],
+      "line_number": 6,
+      "original_text": "the HV enable/disable."
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 7,
+      "original_text": "Lamp, fluorescent light bulb,"
+    },
+    {
+      "ambiguous_words": [
+        "F39BX,",
+        "4-"
+      ],
+      "line_number": 8,
+      "original_text": "Designation F39BX, Base Type 4-"
+    },
+    {
+      "ambiguous_words": [
+        "(2G11),",
+        "T5,"
+      ],
+      "line_number": 9,
+      "original_text": "Pin (2G11), Lamp Shape T5, GE"
+    },
+    {
+      "ambiguous_words": [
+        "F39BX/SPX35/RS"
+      ],
+      "line_number": 10,
+      "original_text": "model F39BX/SPX35/RS"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 11,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "15"
+      ],
+      "line_number": 12,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 15"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 4,
+      "original_text": "Verify wafer camera is operating"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 5,
+      "original_text": "properly."
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 6,
+      "original_text": "process chamber top window"
+    },
+    {
+      "ambiguous_words": [
+        "4716719-0001"
+      ],
+      "line_number": 7,
+      "original_text": "4716719-0001"
+    },
+    {
+      "ambiguous_words": [
+        "viewing"
+      ],
+      "line_number": 8,
+      "original_text": "Lamp, wafer video viewing"
+    },
+    {
+      "ambiguous_words": [
+        "4611553-0001"
+      ],
+      "line_number": 9,
+      "original_text": "4611553-0001"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 10,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "16"
+      ],
+      "line_number": 11,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 16"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "locks"
+      ],
+      "line_number": 4,
+      "original_text": "Wipe down load locks and"
+    },
+    {
+      "ambiguous_words": [
+        "cassette",
+        "nests"
+      ],
+      "line_number": 5,
+      "original_text": "cassette nests"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 6,
+      "original_text": "From the"
+    },
+    {
+      "ambiguous_words": [
+        "Operationbutton,"
+      ],
+      "line_number": 7,
+      "original_text": "Operationbutton,"
+    },
+    {
+      "ambiguous_words": [
+        "Vacuumdetail,"
+      ],
+      "line_number": 8,
+      "original_text": "Vacuumdetail, double click"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 9,
+      "original_text": "the Vacuum FSM then on"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 10,
+      "original_text": "on the Menu detail there is"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 11,
+      "original_text": "an alphabetical list, select"
+    },
+    {
+      "ambiguous_words": [
+        "Loadlock"
+      ],
+      "line_number": 12,
+      "original_text": "Loadlock Particle Clean."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 13,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "17"
+      ],
+      "line_number": 14,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 17"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 3,
+      "original_text": "Back to Index"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 4,
+      "original_text": "Fill the DI Water reservoir at the"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 5,
+      "original_text": "quick disconnect shown below."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 6,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "18"
+      ],
+      "line_number": 7,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 18"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "readback",
+        "shows"
+      ],
+      "line_number": 4,
+      "original_text": "Verify the flow readback shows off when"
+    },
+    {
+      "ambiguous_words": [
+        "valves"
+      ],
+      "line_number": 5,
+      "original_text": "the pump is off or the valves are closed."
+    },
+    {
+      "ambiguous_words": [
+        "QD's"
+      ],
+      "line_number": 6,
+      "original_text": "Verify all the water QD's are connected and"
+    },
+    {
+      "ambiguous_words": [
+        "valves"
+      ],
+      "line_number": 7,
+      "original_text": "valves are open."
+    },
+    {
+      "ambiguous_words": [
+        "UnivESCooling"
+      ],
+      "line_number": 8,
+      "original_text": "From the Operation button, UnivESCooling"
+    },
+    {
+      "ambiguous_words": [
+        "items"
+      ],
+      "line_number": 9,
+      "original_text": "detail the cooling system items will be"
+    },
+    {
+      "ambiguous_words": [
+        "flowing/good"
+      ],
+      "line_number": 10,
+      "original_text": "green when flowing/good and yellow or"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 11,
+      "original_text": "red when there is a problem."
+    },
+    {
+      "ambiguous_words": [
+        "leaks"
+      ],
+      "line_number": 12,
+      "original_text": "Inspect for any water leaks and repair."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 13,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "19"
+      ],
+      "line_number": 14,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 19"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 3,
+      "original_text": "Back to Index"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 4,
+      "original_text": "Fill the platen chiller."
+    },
+    {
+      "ambiguous_words": [
+        "40/60",
+        "DowFrost"
+      ],
+      "line_number": 5,
+      "original_text": "Fill with 40/60 DowFrost premix."
+    },
+    {
+      "ambiguous_words": [
+        "setpoint",
+        "15C"
+      ],
+      "line_number": 6,
+      "original_text": "Verify chiller setpoint is 15C and"
+    },
+    {
+      "ambiguous_words": [
+        "readback"
+      ],
+      "line_number": 7,
+      "original_text": "readback is steady."
+    },
+    {
+      "ambiguous_words": [
+        "readback",
+        "shows"
+      ],
+      "line_number": 8,
+      "original_text": "Verify the flow readback shows"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 9,
+      "original_text": "OFF when turned off and ON"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 10,
+      "original_text": "when turned on as shown on"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 11,
+      "original_text": "the Operation button,"
+    },
+    {
+      "ambiguous_words": [
+        "UnivESCooling"
+      ],
+      "line_number": 12,
+      "original_text": "UnivESCooling detail the cooling"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 13,
+      "original_text": "system."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 14,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "20"
+      ],
+      "line_number": 15,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 20"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "PROCEDURES"
+      ],
+      "line_number": 4,
+      "original_text": "ARSENIC HOUSEKEEPING PROCEDURES"
+    },
+    {
+      "ambiguous_words": [
+        "surfaces",
+        "tools/carts"
+      ],
+      "line_number": 5,
+      "original_text": "Wipe down tool surfaces where arsenic may accumulate source, electrode, analyzer, plus all hand tools/carts and work"
+    },
+    {
+      "ambiguous_words": [
+        "surfaces"
+      ],
+      "line_number": 6,
+      "original_text": "surfaces used during PM. Dispose of all arsenic waste in the proper drum and do not over fill drum. If full get another empty"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 7,
+      "original_text": "and label for arsenic waste."
+    },
+    {
+      "ambiguous_words": [
+        "items",
+        "activities",
+        "commented)"
+      ],
+      "line_number": 8,
+      "original_text": "Check the following items after maintenance activities and they are complete (Unless otherwise commented)"
+    },
+    {
+      "ambiguous_words": [
+        "materials",
+        "(replaced",
+        "parts,",
+        "packing",
+        "materials,",
+        "etc)",
+        "areas"
+      ],
+      "line_number": 9,
+      "original_text": "1. All unneeded materials (replaced parts, cable ties, packing materials, etc) are removed from all areas of the tool and"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 10,
+      "original_text": "returned to their proper place."
+    },
+    {
+      "ambiguous_words": [
+        "2."
+      ],
+      "line_number": 11,
+      "original_text": "2. Clean dirt and debris from on, around or under the tool."
+    },
+    {
+      "ambiguous_words": [
+        "3.",
+        "Panels",
+        "screws",
+        "doors",
+        "panels"
+      ],
+      "line_number": 12,
+      "original_text": "3. Panels and screws in place, doors and panels secure."
+    },
+    {
+      "ambiguous_words": [
+        "4.",
+        "arranged"
+      ],
+      "line_number": 13,
+      "original_text": "4. Cabling neatly arranged and dressed."
+    },
+    {
+      "ambiguous_words": [
+        "5.",
+        "exchange/repairable",
+        "parts,",
+        "recyclable",
+        "materials,",
+        "materials,",
+        "discs,",
+        "manuals,"
+      ],
+      "line_number": 14,
+      "original_text": "5. Return exchange/repairable parts, recyclable materials, unused cleaning materials, computer discs, manuals,"
+    },
+    {
+      "ambiguous_words": [
+        "etc."
+      ],
+      "line_number": 15,
+      "original_text": "documentation, etc. to their proper location."
+    },
+    {
+      "ambiguous_words": [
+        "6.",
+        "needed",
+        "updates",
+        "stockroom",
+        "paperwork."
+      ],
+      "line_number": 16,
+      "original_text": "6. Complete any needed PTS updates and stockroom return paperwork."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 17,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "21"
+      ],
+      "line_number": 18,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 21"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 4,
+      "original_text": "Inspect and wipe off any debris"
+    },
+    {
+      "ambiguous_words": [
+        "90",
+        "70",
+        "pads"
+      ],
+      "line_number": 5,
+      "original_text": "from the 90 and 70 isolation pads"
+    },
+    {
+      "ambiguous_words": [
+        "bushings."
+      ],
+      "line_number": 6,
+      "original_text": "and bushings."
+    },
+    {
+      "ambiguous_words": [
+        "pads"
+      ],
+      "line_number": 7,
+      "original_text": "When not clean the isolation pads"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 8,
+      "original_text": "can track a high voltage arc across"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 9,
+      "original_text": "them."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 10,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "22"
+      ],
+      "line_number": 11,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 22"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "Post-PM"
+      ],
+      "line_number": 4,
+      "original_text": "Record Post-PM Vacuum."
+    },
+    {
+      "ambiguous_words": [
+        "IG1______",
+        "IG2______",
+        "IG3______"
+      ],
+      "line_number": 5,
+      "original_text": "IG1______ IG2______ IG3______"
+    },
+    {
+      "ambiguous_words": [
+        "required"
+      ],
+      "line_number": 6,
+      "original_text": "Base pressure required is better than"
+    },
+    {
+      "ambiguous_words": [
+        "2.0e-6",
+        "IG3"
+      ],
+      "line_number": 7,
+      "original_text": "2.0e-6 for IG3 and"
+    },
+    {
+      "ambiguous_words": [
+        "5.0e-6",
+        "IG1",
+        "IG2."
+      ],
+      "line_number": 8,
+      "original_text": "5.0e-6 for IG1 and IG2."
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 9,
+      "original_text": "From the Operation button, Vacuum"
+    },
+    {
+      "ambiguous_words": [
+        "viewed."
+      ],
+      "line_number": 10,
+      "original_text": "detail the IG\u2019s can be viewed."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 11,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "23"
+      ],
+      "line_number": 12,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 23"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "supplies."
+      ],
+      "line_number": 4,
+      "original_text": "Condition the HV power supplies."
+    },
+    {
+      "ambiguous_words": [
+        "Operationbutton,",
+        "BeamTuneDetail"
+      ],
+      "line_number": 5,
+      "original_text": "From the Operationbutton, BeamTuneDetail"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 6,
+      "original_text": "detail the individual beam generation power"
+    },
+    {
+      "ambiguous_words": [
+        "supplies",
+        "controlled."
+      ],
+      "line_number": 7,
+      "original_text": "supplies can be controlled."
+    },
+    {
+      "ambiguous_words": [
+        "doors"
+      ],
+      "line_number": 8,
+      "original_text": "The tool must be in high vacuum, doors closed"
+    },
+    {
+      "ambiguous_words": [
+        "startup."
+      ],
+      "line_number": 9,
+      "original_text": "& locked with a successful system startup."
+    },
+    {
+      "ambiguous_words": [
+        "5"
+      ],
+      "line_number": 10,
+      "original_text": "Turn ON the Suppression PS and command to 5"
+    },
+    {
+      "ambiguous_words": [
+        "glitching"
+      ],
+      "line_number": 11,
+      "original_text": "Wait for the Suppression HV to stop glitching"
+    },
+    {
+      "ambiguous_words": [
+        "10"
+      ],
+      "line_number": 12,
+      "original_text": "Turn ON the Extraction PS and command to 10"
+    },
+    {
+      "ambiguous_words": [
+        "glitching"
+      ],
+      "line_number": 13,
+      "original_text": "Wait for the extraction HV to stop glitching"
+    },
+    {
+      "ambiguous_words": [
+        "10",
+        "80"
+      ],
+      "line_number": 14,
+      "original_text": "Step up the Extraction command by 10 to 80"
+    },
+    {
+      "ambiguous_words": [
+        "glitching"
+      ],
+      "line_number": 15,
+      "original_text": "Wait after each step for the glitching to stop"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 16,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "24"
+      ],
+      "line_number": 17,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 24"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 3,
+      "original_text": "Back to Index"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 4,
+      "original_text": "Performance Check"
+    },
+    {
+      "ambiguous_words": [
+        "Using",
+        "multi-recipe."
+      ],
+      "line_number": 5,
+      "original_text": "Using 1 non production wafer (getter wafer) run the \u201cPerformance Check\u201d multi-recipe. Ensure"
+    },
+    {
+      "ambiguous_words": [
+        "tunes",
+        "runs",
+        "needed."
+      ],
+      "line_number": 6,
+      "original_text": "the tool tunes and runs the job without arcing. Assist tool with tuning as needed."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 7,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "25"
+      ],
+      "line_number": 8,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 25"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 3,
+      "original_text": "Back to Index"
+    },
+    {
+      "ambiguous_words": [
+        "SMM",
+        "5"
+      ],
+      "line_number": 4,
+      "original_text": "Post SMM Top 5 Recipe Tune Up"
+    },
+    {
+      "ambiguous_words": [
+        "homepage"
+      ],
+      "line_number": 5,
+      "original_text": "1. Go to the Implant EE homepage"
+    },
+    {
+      "ambiguous_words": [
+        "2.",
+        "Info",
+        "dropdown",
+        "Frequencies."
+      ],
+      "line_number": 6,
+      "original_text": "2. Under Implant Info click the dropdown for Beam Tuning and select Recipe Frequencies."
+    },
+    {
+      "ambiguous_words": [
+        "http://dmos10/Cesr/mlcd/PM_Tracker/recipe_frequencies.pl"
+      ],
+      "line_number": 7,
+      "original_text": "http://dmos10/Cesr/mlcd/PM_Tracker/recipe_frequencies.pl"
+    },
+    {
+      "ambiguous_words": [
+        "3.",
+        "Viista"
+      ],
+      "line_number": 8,
+      "original_text": "3. Select Viista in the top left corner."
+    },
+    {
+      "ambiguous_words": [
+        "4.",
+        "5",
+        "recipes"
+      ],
+      "line_number": 9,
+      "original_text": "4. Tune the top 5 recipes that are listed for the tool you are working."
+    },
+    {
+      "ambiguous_words": [
+        "parameters"
+      ],
+      "line_number": 10,
+      "original_text": "a) Verify you are not close to the limit for any of the tunable parameters"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 11,
+      "original_text": "i. Source Beam I"
+    },
+    {
+      "ambiguous_words": [
+        "ii."
+      ],
+      "line_number": 12,
+      "original_text": "ii. X Axis"
+    },
+    {
+      "ambiguous_words": [
+        "iii."
+      ],
+      "line_number": 13,
+      "original_text": "iii. Z Axis"
+    },
+    {
+      "ambiguous_words": [
+        "2."
+      ],
+      "line_number": 14,
+      "original_text": "2."
+    },
+    {
+      "ambiguous_words": [
+        "iv."
+      ],
+      "line_number": 15,
+      "original_text": "iv. Implant ROI I"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 16,
+      "original_text": "v. Uniformity"
+    },
+    {
+      "ambiguous_words": [
+        "1stshift",
+        "struggles",
+        "allowed"
+      ],
+      "line_number": 17,
+      "original_text": "b) Reach out to EE or 1stshift if you can not tune the recipe or it struggles to tune within the allowed range."
+    },
+    {
+      "ambiguous_words": [
+        "5.",
+        "recipes."
+      ],
+      "line_number": 18,
+      "original_text": "5. The purpose of this is to increase the efficiency of the tuning not just that it can tune the recipes."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 19,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "26"
+      ],
+      "line_number": 20,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 26"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "XID",
+        "completed",
+        "addressed"
+      ],
+      "line_number": 4,
+      "original_text": "Update XID of tool for any thing that was completed during this PM or needs addressed during the next PM."
+    },
+    {
+      "ambiguous_words": [
+        "XID",
+        "preceded",
+        "XID",
+        "IM401",
+        "XIM401.",
+        "XID"
+      ],
+      "line_number": 5,
+      "original_text": "The XID is the tool Misti ID preceded by an \u201cX\u201d for example the XID for IM401 is XIM401. If the XID cannot be"
+    },
+    {
+      "ambiguous_words": [
+        "completed",
+        "needed."
+      ],
+      "line_number": 6,
+      "original_text": "completed document what is needed."
+    },
+    {
+      "ambiguous_words": [
+        "SMW20DE2",
+        "comments"
+      ],
+      "line_number": 7,
+      "original_text": "\u2022 Use SMW20DE2 to view comments"
+    },
+    {
+      "ambiguous_words": [
+        "performing",
+        "(xim203)"
+      ],
+      "line_number": 8,
+      "original_text": "\u2022 X in front of tool performing PM on (xim203)"
+    },
+    {
+      "ambiguous_words": [
+        "Dates",
+        "Comments"
+      ],
+      "line_number": 9,
+      "original_text": "\u2022 Check Dates and Comments for anything"
+    },
+    {
+      "ambiguous_words": [
+        "needed."
+      ],
+      "line_number": 10,
+      "original_text": "needed."
+    },
+    {
+      "ambiguous_words": [
+        "IM203"
+      ],
+      "line_number": 11,
+      "original_text": "Tool ID: IM203"
+    },
+    {
+      "ambiguous_words": [
+        "XID:",
+        "XIM203"
+      ],
+      "line_number": 12,
+      "original_text": "XID: XIM203"
+    },
+    {
+      "ambiguous_words": [
+        "Cryo"
+      ],
+      "line_number": 13,
+      "original_text": "P2 Cryo due on next PM"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 14,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "27"
+      ],
+      "line_number": 15,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 27"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "readings",
+        "0.25mR/hr.",
+        "Troubleshoot"
+      ],
+      "line_number": 4,
+      "original_text": "Complete a radiation survey with a beam running. All readings must be less than 0.25mR/hr. Troubleshoot and"
+    },
+    {
+      "ambiguous_words": [
+        "online"
+      ],
+      "line_number": 5,
+      "original_text": "fix if necessary. Complete the online form on our web page at the link below."
+    },
+    {
+      "ambiguous_words": [
+        "http://dm5ee2.de.sc.ti.com/RadiationSurvey/asp/Query.asp"
+      ],
+      "line_number": 6,
+      "original_text": "http://dm5ee2.de.sc.ti.com/RadiationSurvey/asp/Query.asp"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 7,
+      "original_text": "Check Cal Date"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 8,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "28"
+      ],
+      "line_number": 9,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 28"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 3,
+      "original_text": "Back to Index"
+    },
+    {
+      "ambiguous_words": [
+        "PCPR",
+        "locks",
+        "qual",
+        "Adders",
+        "using"
+      ],
+      "line_number": 4,
+      "original_text": "Run a PCPR test on both load locks with any standard MFG qual beam & record the Map to Map Adders using"
+    },
+    {
+      "ambiguous_words": [
+        "MXII/8CPR1",
+        "wafers.",
+        "Adders",
+        "qual"
+      ],
+      "line_number": 5,
+      "original_text": "MXII/8CPR1 donor wafers. Adders must be < upper zone b of the production qual chart."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 6,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "29"
+      ],
+      "line_number": 7,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 29"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 3,
+      "original_text": "Back to Index"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 4,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "30"
+      ],
+      "line_number": 5,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 30"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "codes",
+        "assemblies"
+      ],
+      "line_number": 4,
+      "original_text": "Change the state codes of Dirty assemblies to DOWN on SMS."
+    },
+    {
+      "ambiguous_words": [
+        "SMM06DE2"
+      ],
+      "line_number": 5,
+      "original_text": "\u2022 SMM06DE2"
+    },
+    {
+      "ambiguous_words": [
+        "changed"
+      ],
+      "line_number": 6,
+      "original_text": "\u2022 Include tool changed on & PM #"
+    },
+    {
+      "ambiguous_words": [
+        "parts"
+      ],
+      "line_number": 7,
+      "original_text": "\u2022 Log new parts to PROD and old"
+    },
+    {
+      "ambiguous_words": [
+        "parts"
+      ],
+      "line_number": 8,
+      "original_text": "parts to DOWN"
+    },
+    {
+      "ambiguous_words": [
+        "Locations",
+        "Numbers"
+      ],
+      "line_number": 9,
+      "original_text": "Locations of assembly MISTI Numbers"
+    },
+    {
+      "ambiguous_words": [
+        "VS003",
+        "EB030"
+      ],
+      "line_number": 10,
+      "original_text": "VS003 EB030"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 11,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "31"
+      ],
+      "line_number": 12,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 31"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "7.0"
+      ],
+      "line_number": 4,
+      "original_text": "7.0 5S"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 5,
+      "original_text": "a) After any PM procedure, 5S the work area."
+    },
+    {
+      "ambiguous_words": [
+        "surfaces",
+        "performed."
+      ],
+      "line_number": 6,
+      "original_text": "b) Wipe down all surfaces around the area the PM was performed."
+    },
+    {
+      "ambiguous_words": [
+        "tools",
+        "parts,"
+      ],
+      "line_number": 7,
+      "original_text": "c) Put away all tools and spare parts, and ensure the tool is ready for"
+    },
+    {
+      "ambiguous_words": [
+        "Manufacturing"
+      ],
+      "line_number": 8,
+      "original_text": "Manufacturing to use."
+    },
+    {
+      "ambiguous_words": [
+        "LBQS"
+      ],
+      "line_number": 9,
+      "original_text": "d) Move the tool to LBQS state."
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 10,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "32"
+      ],
+      "line_number": 11,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 32"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "8.0"
+      ],
+      "line_number": 4,
+      "original_text": "8.0 Spec Revision History"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 5,
+      "original_text": "Approver of Procedure or"
+    },
+    {
+      "ambiguous_words": [
+        "changed)",
+        "Revised"
+      ],
+      "line_number": 6,
+      "original_text": "Spec Revision Comment (What is changed) Editor Date Revised"
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 7,
+      "original_text": "ECN Number"
+    },
+    {
+      "ambiguous_words": [
+        "000",
+        "Douglas",
+        "Hicks",
+        "20084016",
+        "03/24/2020"
+      ],
+      "line_number": 8,
+      "original_text": "000 Initial Creation Douglas Hicks 20084016 03/24/2020"
+    },
+    {
+      "ambiguous_words": [
+        "001",
+        "Douglas",
+        "Hicks",
+        "20286002",
+        "10/16/2020"
+      ],
+      "line_number": 9,
+      "original_text": "001 Update Links Douglas Hicks 20286002 10/16/2020"
+    },
+    {
+      "ambiguous_words": [
+        "002",
+        "Merryweather",
+        "23123024",
+        "05/04/2023"
+      ],
+      "line_number": 10,
+      "original_text": "002 Input Performance Check Luke Merryweather 23123024 05/04/2023"
+    },
+    {
+      "ambiguous_words": [
+        "003",
+        "Merryweather",
+        "23290004",
+        "10/17/2023"
+      ],
+      "line_number": 11,
+      "original_text": "003 Input Post PM Recipe Tune Luke Merryweather 23290004 10/17/2023"
+    },
+    {
+      "ambiguous_words": [
+        "005",
+        "Merryweather",
+        "24059016",
+        "02/28/2024"
+      ],
+      "line_number": 12,
+      "original_text": "005 Fixing the Rev to match SMS Spec Luke Merryweather 24059016 02/28/2024"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 13,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "33"
+      ],
+      "line_number": 14,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 33"
+    },
+    {
+      "ambiguous_words": [
+        "IR-PP80SP",
+        "Months)",
+        "005"
+      ],
+      "line_number": 1,
+      "original_text": "IR-PP80SP BKM Maintenance Guide Short PM (Even Months) REV 005"
+    },
+    {
+      "ambiguous_words": [
+        "200MM",
+        "AMAT/Varian",
+        "VIISta",
+        "80HP"
+      ],
+      "line_number": 2,
+      "original_text": "Title: 200MM AMAT/Varian VIISta 80HP Ion Implanter"
+    },
+    {
+      "ambiguous_words": [
+        "BBaacckk",
+        "ttoo",
+        "IInnddeexx"
+      ],
+      "line_number": 3,
+      "original_text": "BBaacckk ttoo IInnddeexx"
+    },
+    {
+      "ambiguous_words": [
+        "9.0"
+      ],
+      "line_number": 4,
+      "original_text": "9.0 Data Retention"
+    },
+    {
+      "ambiguous_words": [
+        "Recorded",
+        "Checklist",
+        "retained",
+        "QP016-1."
+      ],
+      "line_number": 5,
+      "original_text": "\u2022 Recorded and Checklist data shall be retained per QP016-1."
+    },
+    {
+      "ambiguous_words": [],
+      "line_number": 6,
+      "original_text": "***DO NOT EDIT THIS PAGE***"
+    },
+    {
+      "ambiguous_words": [
+        "Needed",
+        "purposes"
+      ],
+      "line_number": 7,
+      "original_text": "Needed for internal specification purposes"
+    },
+    {
+      "ambiguous_words": [
+        "has",
+        "STOPand"
+      ],
+      "line_number": 8,
+      "original_text": "At any time if the tool has a fault or you have a question STOPand get a Technician"
+    },
+    {
+      "ambiguous_words": [
+        "copies",
+        "NOTcontrolled",
+        "documents***",
+        "34"
+      ],
+      "line_number": 9,
+      "original_text": "***Printed copies are NOTcontrolled documents*** 34"
+    }
+  ]
+}
