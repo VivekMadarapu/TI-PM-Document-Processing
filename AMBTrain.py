@@ -223,22 +223,22 @@ val_dataset = TextClassificationDataset(val_texts, val_labels, tokenizer)
 
 training_args = TrainingArguments(
     report_to=None,
-    output_dir='./results',          # Output directory
-    num_train_epochs=5,              # Total number of training epochs
-    per_device_train_batch_size=8,   # Batch size per device during training
-    per_device_eval_batch_size=8,    # Batch size for evaluation
-    learning_rate=2e-5,              # Learning rate
-    eval_strategy='epoch',           # Evaluation strategy to use
-    save_strategy='epoch',           # Save checkpoint every epoch
-    logging_dir='./logs',            # Directory for storing logs
-    logging_steps=10,                # Log every 10 steps
+    output_dir='./results',
+    num_train_epochs=5,
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=8,
+    learning_rate=2e-5,
+    eval_strategy='epoch',
+    save_strategy='epoch',
+    logging_dir='./logs',
+    logging_steps=10,
 )
 
 trainer = Trainer(
-    model=model,                         # The instantiated 🤗 Transformers model to be trained
-    args=training_args,                  # Training arguments
-    train_dataset=train_dataset,         # Training dataset
-    eval_dataset=val_dataset,            # Evaluation dataset
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=val_dataset,
 )
 
 trainer.train()

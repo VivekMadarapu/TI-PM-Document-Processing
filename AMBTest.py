@@ -43,7 +43,6 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
 model.eval()
 
-# Move the model to GPU if available
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
@@ -75,19 +74,15 @@ all_preds = []
 
 with torch.no_grad():
     for batch in test_loader:
-        # Get the inputs and labels
         input_ids = batch['input_ids']
         attention_mask = batch['attention_mask']
         labels = batch['labels']
 
-        # Forward pass
         outputs = model(input_ids=input_ids, attention_mask=attention_mask)
         logits = outputs.logits
 
-        # Get predictions
         preds = torch.argmax(logits, dim=1)
 
-        # Append labels and predictions
         all_labels.extend(labels.cpu().numpy())
         all_preds.extend(preds.cpu().numpy())
 
@@ -108,7 +103,6 @@ print(report)
 
 cm = confusion_matrix(all_labels, all_preds)
 
-# Plot the confusion matrix using seaborn
 plt.figure(figsize=(6, 4))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
             xticklabels=['Ambiguous', 'Specific'],
