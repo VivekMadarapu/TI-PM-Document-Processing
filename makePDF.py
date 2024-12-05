@@ -8,11 +8,11 @@ import json
 with open('output/extracted_text.txt', 'r') as f:
     instructions = f.readlines()
 
-with open('ambiguous.txt', 'r') as f:
+with open('output/ambiguous.txt', 'r') as f:
     ambiguous_lines = f.readlines()
 
 # Load the spelling errors from a JSON file
-with open('response2.json', 'r') as f:
+with open('output/response.json', 'r') as f:
     spellingData = json.load(f)
 
 # Clean up whitespace/newlines
@@ -55,18 +55,19 @@ for line in instructions:
     current_x = x   # Start position for the current line
 
     for word in words:
-        # Check if the word is ambiguous (priority 1)
         #is_ambiguous = any(amb_line.lower() == word.lower() for amb_line in ambiguous_lines)
-        is_ambiguous = any(amb_line in line for amb_line in ambiguous_lines)
         
-        # If the word is ambiguous, highlight it first (yellow, for example)
-        if is_ambiguous:
-            write_text(word, current_x, y, highlight=True, highlight_color=colors.yellow)
+        #chech if spelling error first (highest priority)
+        is_spelling_error = word.lower() in spellingWords  # Case insensitive comparison
+        if is_spelling_error:  
+            write_text(word, current_x, y, highlight=True, highlight_color=colors.red)             
+        
+        #second priority is ambiguity
         else:
-            # Otherwise, check if it's a spelling error (priority 2)
-            is_spelling_error = word.lower() in spellingWords  # Case insensitive comparison
-            # Highlight red for spelling errors
-            write_text(word, current_x, y, highlight=is_spelling_error, highlight_color=colors.red)
+            is_ambiguous = any(amb_line in line for amb_line in ambiguous_lines) 
+            write_text(word, current_x, y, highlight=is_ambiguous, highlight_color=colors.yellow)
+            
+            
         
         # Move the cursor to the next word's x position
         word_width = c.stringWidth(word, chosenFont, 10)
