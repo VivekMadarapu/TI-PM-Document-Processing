@@ -59,6 +59,7 @@ def process_file(file_path):
 
 def process_pdf(file_path):
     processed_lines = []
+    all_lines = []
     all_rewritten_lines = []
     ambiguous_lines = []
 
@@ -69,12 +70,12 @@ def process_pdf(file_path):
                 lines = text.split('\n')
                 for i, line in enumerate(lines, start=1):
                     
-                    # rewritten_line = rewrite_task_statement(line)
-                    rewritten_line = line
+                    rewritten_line = rewrite_task_statement(line)
                     ambiguous_line = predict_sentences([line])
                     sentence, label = ambiguous_line[0]
 
                     all_rewritten_lines.append(f"\n{rewritten_line}")
+                    all_lines.append(f"\n{line}")
                     if label == "ambiguous":
                         ambiguous_lines.append(f"\n{line}")
 
@@ -86,6 +87,8 @@ def process_pdf(file_path):
                     })
 
                 with open("output/extracted_text.txt", 'w') as f:
+                    f.writelines(all_lines)
+                with open("output/extracted_rewritten_text.txt", 'w') as f:
                     f.writelines(all_rewritten_lines)
                 with open("output/ambiguous.txt", 'w') as f:
                     f.writelines(ambiguous_lines)
