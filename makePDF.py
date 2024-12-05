@@ -66,8 +66,6 @@ for line in instructions:
         else:
             is_ambiguous = any(amb_line in line for amb_line in ambiguous_lines) 
             write_text(word, current_x, y, highlight=is_ambiguous, highlight_color=colors.yellow)
-            
-            
         
         # Move the cursor to the next word's x position
         word_width = c.stringWidth(word, chosenFont, 10)
