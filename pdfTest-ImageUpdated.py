@@ -1,6 +1,8 @@
 import io
 import os
 import json
+from typing import BinaryIO
+
 import pdfplumber
 import nltk
 from flask import Flask, request, jsonify, send_file
@@ -45,12 +47,12 @@ def process_document():
         uploaded_file.save(file_path)
 
         # Process the uploaded file
-        processed_data = process_file(file_path)
+        processed_response = process_file(file_path)
 
         # Clean up the temp file
         os.remove(file_path)
 
-        return jsonify(processed_data), 200
+        return processed_response, 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -112,7 +114,7 @@ def process_pdf(file_path):
 def send_multiple_files(file_paths):
     import zipfile
 
-    memory_file = io.BytesIO()
+    memory_file: BinaryIO = io.BytesIO()
     with zipfile.ZipFile(memory_file, 'w') as zf:
         for file_path in file_paths:
             zf.write(file_path, os.path.basename(file_path))
