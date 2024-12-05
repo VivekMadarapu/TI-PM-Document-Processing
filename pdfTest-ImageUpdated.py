@@ -5,7 +5,8 @@ import nltk
 from flask import Flask, request, jsonify
 from nltk.corpus import words
 import re
-from pmdocrewrite2 import rewrite_task_statement
+from pmdocrewriteUpdated import rewrite_task_statement
+from AMBPredict import predict_sentences
 
 # Download NLTK data
 nltk.download("words")
@@ -58,7 +59,8 @@ def process_file(file_path):
 
 def process_pdf(file_path):
     processed_lines = []
-    all_rewritten_lines = []            #=================== NEW ===================
+    all_rewritten_lines = []
+    ambiguous_lines = []
 
     with pdfplumber.open(file_path) as pdf:
         for page in pdf.pages:
@@ -67,10 +69,14 @@ def process_pdf(file_path):
                 lines = text.split('\n')
                 for i, line in enumerate(lines, start=1):
                     
-                    rewritten_line = rewrite_task_statement(line)       #=================== NEW ===================
-                    
-                    # Append the rewritten line to the list
-                    all_rewritten_lines.append(f"\n{rewritten_line}")   #=================== NEW ===================
+                    # rewritten_line = rewrite_task_statement(line)
+                    rewritten_line = line
+                    ambiguous_line = predict_sentences([line])
+                    sentence, label = ambiguous_line[0]
+
+                    all_rewritten_lines.append(f"\n{rewritten_line}")
+                    if label == "ambiguous":
+                        ambiguous_lines.append(f"\n{line}")
 
                     ambiguous_words = find_ambiguous_words(line)
                     processed_lines.append({
@@ -79,8 +85,13 @@ def process_pdf(file_path):
                         "ambiguous_words": ambiguous_words
                     })
 
-                with open("output/extracted_text.txt", "w") as f:              #=================== NEW ===================
+                with open("output/extracted_text.txt", 'w') as f:
                     f.writelines(all_rewritten_lines)
+                with open("output/ambiguous.txt", 'w') as f:
+                    f.writelines(ambiguous_lines)
+
+    with open("output/response.json", 'w') as f:
+        f.writelines(json.dumps({"processed_lines": processed_lines}))
 
     return {"processed_lines": processed_lines}
 

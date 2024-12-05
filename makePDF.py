@@ -8,11 +8,11 @@ import json
 with open('output/extracted_text.txt', 'r') as f:
     instructions = f.readlines()
 
-with open('ambiguous.txt', 'r') as f:
+with open('output/ambiguous.txt', 'r') as f:
     ambiguous_lines = f.readlines()
 
 # Load the spelling errors from a JSON file
-with open('response2.json', 'r') as f:
+with open('output/response.json', 'r') as f:
     spellingData = json.load(f)
 
 # Clean up whitespace/newlines
