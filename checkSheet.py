@@ -29,7 +29,7 @@ def contains_blocked_phrase(line):
             return True
     return False
 
-def process_file(input_file, output_file):
+def generate_checksheet(input_file, output_file):
     with open(input_file, 'r') as infile:
         lines = infile.readlines()
 
@@ -80,8 +80,3 @@ def process_file(input_file, output_file):
             else:
                 # Otherwise, just write the line as it is, preserving indentation
                 outfile.write(f"{line}\n")
-
-input_file = "output/extracted_text.txt"  
-output_file = "checkOut.txt"  
-
-process_file(input_file, output_file)

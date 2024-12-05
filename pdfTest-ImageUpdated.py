@@ -1,10 +1,14 @@
+import io
 import os
 import json
 import pdfplumber
 import nltk
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from nltk.corpus import words
 import re
+
+from makePDF import make_pdf
+from checkSheet import generate_checksheet
 from pmdocrewriteUpdated import rewrite_task_statement
 from AMBPredict import predict_sentences
 
@@ -96,7 +100,25 @@ def process_pdf(file_path):
     with open("output/response.json", 'w') as f:
         f.writelines(json.dumps({"processed_lines": processed_lines}))
 
-    return {"processed_lines": processed_lines}
+    make_pdf()
+
+    input_file = "output/extracted_text.txt"
+    output_file = "checkOut.txt"
+
+    generate_checksheet(input_file, output_file)
+
+    return send_multiple_files(['outputPDF.pdf', 'checkOut.txt'])
+
+def send_multiple_files(file_paths):
+    import zipfile
+
+    memory_file = io.BytesIO()
+    with zipfile.ZipFile(memory_file, 'w') as zf:
+        for file_path in file_paths:
+            zf.write(file_path, os.path.basename(file_path))
+    memory_file.seek(0)
+
+    return send_file(memory_file, mimetype='application/zip', as_attachment=True, download_name='output_files.zip')
 
 def find_ambiguous_words(line):
     ambiguous_terms = []
