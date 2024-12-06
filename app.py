@@ -101,6 +101,8 @@ def find_ambiguous_words(line):
         stripped_word = re.sub(r'[^\w\s]', '', word)
         if re.search(r'\w+\s*\(.*?\)', word):
             continue
+        if re.match(r'\d+(\.\d+)*', stripped_word):
+            continue
 
         if stripped_word.lower() in dictionary_words or stripped_word.upper() in acronyms:
             continue
