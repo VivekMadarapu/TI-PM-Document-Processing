@@ -32,7 +32,9 @@ def process_document():
         if uploaded_file.filename == '':
             return jsonify({"error": "Empty file."}), 400
 
+        print("Processing file:", uploaded_file.filename)
         processed_response = process_file(uploaded_file)
+        print("Processed file:", uploaded_file.filename)
         return processed_response, 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500

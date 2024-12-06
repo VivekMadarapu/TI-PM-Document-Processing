@@ -1,0 +1,1 @@
+conda run -n TIPMDP --no-capture-output python app.py
