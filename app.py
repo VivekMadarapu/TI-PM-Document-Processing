@@ -1,13 +1,9 @@
 import io
-import os
 import json
 from datetime import datetime
-from typing import BinaryIO
-
+from flask import Flask, request, jsonify, send_file
 import pdfplumber
 import nltk
-from flask import Flask, request, jsonify, send_file
-from nltk.corpus import words
 import re
 
 from makePDF import make_pdf
@@ -17,28 +13,18 @@ from AMBPredict import predict_sentences
 
 nltk.download("words")
 
-dictionary_words = set(words.words())
-
-
-def load_acronyms(file_path):
-    with open(file_path, 'r') as file:
-        return set(line.strip() for line in file.readlines())
-
-
-acronyms = load_acronyms('1.txt')
+dictionary_words = set(nltk.corpus.words.words())
+acronyms = set(["NASA", "FBI", "CIA"])  # Example acronyms, replace with actual acronyms as needed
 
 app = Flask(__name__)
-
 
 @app.route('/test', methods=['GET'])
 def test_connection():
     return jsonify({"message": "Connection successful."}), 200
 
-
 @app.route('/process', methods=['POST'])
 def process_document():
     try:
-
         if 'file' not in request.files:
             return jsonify({"error": "No file provided."}), 400
 
@@ -46,39 +32,28 @@ def process_document():
         if uploaded_file.filename == '':
             return jsonify({"error": "Empty file."}), 400
 
-        file_path = os.path.join("temp", uploaded_file.filename)
-        os.makedirs("temp", exist_ok=True)
-        uploaded_file.save(file_path)
-
-        processed_response = process_file(file_path)
-
-        os.remove(file_path)
-
+        processed_response = process_file(uploaded_file)
         return processed_response, 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
-def process_file(file_path):
-    if file_path.endswith('.pdf'):
-        return process_pdf(file_path)
+def process_file(file):
+    if file.filename.endswith('.pdf'):
+        return process_pdf(file)
     else:
-        return {"error": "Unsupported file format. Only PDF files are supported."}
+        return jsonify({"error": "Unsupported file format. Only PDF files are supported."})
 
-
-def process_pdf(file_path):
+def process_pdf(file):
     processed_lines = []
     all_lines = []
-
     ambiguous_lines = []
 
-    with pdfplumber.open(file_path) as pdf:
+    with pdfplumber.open(file) as pdf:
         for page in pdf.pages:
             text = page.extract_text()
             if text:
                 lines = text.split('\n')
                 for i, line in enumerate(lines, start=1):
-
                     ambiguous_line = predict_sentences([line])
                     sentence, label = ambiguous_line[0]
 
@@ -93,40 +68,30 @@ def process_pdf(file_path):
                         "ambiguous_words": ambiguous_words
                     })
 
-                with open("output/extracted_text.txt", 'w') as f:
-                    f.writelines(all_lines)
-
-                with open("output/ambiguous.txt", 'w') as f:
-                    f.writelines(ambiguous_lines)
-
-    with open("output/response.json", 'w') as f:
-        f.writelines(json.dumps({"processed_lines": processed_lines}))
+    extracted_text = "".join(all_lines)
+    ambiguous_text = "".join(ambiguous_lines)
+    response_data = json.dumps({"processed_lines": processed_lines})
 
     time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    pdf_output_stream = io.BytesIO()
+    pdf_clean_output_stream = io.BytesIO()
 
-    pdf_output_file = f"documents/PMDoc_Report_{time}.pdf"
-    pdf_clean_output_file = f"documents/PMDoc_New_{time}.pdf"
-    make_pdf(pdf_output_file, pdf_clean_output_file)
+    make_pdf(extracted_text, ambiguous_text, response_data, pdf_output_stream, pdf_clean_output_stream)
 
-    input_file = "output/extracted_text.txt"
-    checksheet_output_file = f"documents/CheckSheet_{time}.txt"
+    checksheet_output_stream = io.BytesIO()
+    generate_checksheet(extracted_text, checksheet_output_stream)
 
-    generate_checksheet(input_file, checksheet_output_file)
+    return send_multiple_files([("PMDoc_Report.pdf", pdf_output_stream), ("PMDoc_New.pdf", pdf_clean_output_stream), ("CheckSheet.txt", checksheet_output_stream)])
 
-    return send_multiple_files([pdf_output_file, pdf_clean_output_file, checksheet_output_file])
-
-
-def send_multiple_files(file_paths):
+def send_multiple_files(file_streams):
     import zipfile
-
-    memory_file: BinaryIO = io.BytesIO()
+    memory_file = io.BytesIO()
     with zipfile.ZipFile(memory_file, 'w') as zf:
-        for file_path in file_paths:
-            zf.write(file_path, os.path.basename(file_path))
+        for filename, stream in file_streams:
+            stream.seek(0)
+            zf.writestr(filename, stream.read())
     memory_file.seek(0)
-
     return send_file(memory_file, mimetype='application/zip', as_attachment=True, download_name='output_files.zip')
-
 
 def find_ambiguous_words(line):
     ambiguous_terms = []
@@ -144,8 +109,5 @@ def find_ambiguous_words(line):
 
     return ambiguous_terms
 
-
 if __name__ == '__main__':
-    os.makedirs("temp", exist_ok=True)
-
     app.run(host='0.0.0.0', port=5000, debug=True)
