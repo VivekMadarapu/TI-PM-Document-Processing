@@ -212,6 +212,7 @@ class TextClassificationDataset(Dataset):
 
 device = torch.device('cpu')
 if torch.cuda.is_available():
+    print("Using CUDA")
     device = torch.device('cuda')
 
 tokenizer = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
